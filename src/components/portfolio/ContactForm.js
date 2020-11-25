@@ -56,7 +56,7 @@ export const ContactForm = () => {
                                 <input
                                     type="tel"
                                     className="form-control"
-                                    placeholder="Escriba su telefono... (oprional)" 
+                                    placeholder="Escriba su telefono... (opcional)" 
                                     name="phone"
                                 />
                             </div>
