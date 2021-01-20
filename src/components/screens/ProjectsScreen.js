@@ -1,9 +1,12 @@
 import React from 'react'
+import { Footer } from '../portfolio/Footer'
+import { ProjectsSlider } from '../portfolio/ProjectsSlider'
 
 export const ProjectsScreen = () => {
     return (
         <div>
-            <h1>Projects screen</h1>
+            <ProjectsSlider />
+            <Footer/>
         </div>
     )
 }

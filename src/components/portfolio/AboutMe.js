@@ -5,7 +5,7 @@ import perfil from '../../img/perfil.jpg';
 export const AboutMe = () => {
     return (
         <div className="container grid">
-            <div className="about ">
+            <div className="about">
                 <h2>Un poco sobre mí</h2>
                 <hr/>
                 <p>Estudie en la secundaria “Colegio Técnico Provincial Olga B. de Arko” con orientación en informática. Y actualmente soy estudiante de la carrera “Licenciatura en Sistemas (con orientación en Calidad de Software)” de la Universidad Nacional de Tierra del Fuego, actualmente curso materias de cuarto y quinto año.</p>
@@ -15,7 +15,7 @@ export const AboutMe = () => {
                 <p>Me gusta tanto el software como el hardware, por lo tanto tengo experiencia en soporte técnico, armado de computadoras y diagnósticos.</p>
                 <hr/>
             </div>
-            <div className="about" style={{margin: 70}}>
+            <div className="about image">
                 <img src={perfil} alt="Perfil"></img>
             </div>
         </div>

@@ -33,6 +33,11 @@
     transform: scale(0.98);
 }
 
+.center-content {
+    justify-content: center;
+    display: flex;
+}
+
 /* Backgrounds & colored buttons */
 .bg-primary, 
 .btn-primary {
